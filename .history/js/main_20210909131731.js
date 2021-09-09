@@ -160,3 +160,11 @@ new Swiper('.awards-sec .swiper-container', {
         nextEl: '.awards-sec .swiper-next',
     }
 });
+
+
+/* -------------------------------------------------------------------
+    @Footer
+------------------------------------------------------------------- */
+const thisYear = document.querySelector('.footer__this-year');
+
+thisYear.textContent = new Date().getFullYear();
